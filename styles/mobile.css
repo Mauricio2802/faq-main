@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  font-family: var(--primary-font-family);
+}
+body,
+html {
+  min-height: 100vh;
+}
+
+:root {
+  /* Primary */
+
+  /* Text */
+  --blue-100: hsl(238, 29%, 16%);
+  --red-arrow: hsl(14, 88%, 65%);
+
+  /* Gradient */
+  /* Background gradient: */
+  --gradient-violet: hsl(273, 75%, 66%);
+  --gradient-blue: hsl(240, 73%, 65%);
+
+  /* Neutral */
+
+  /* Text */
+  --blue-200: hsl(237, 12%, 33%);
+  --blue-300: hsl(240, 6%, 50%);
+
+  /*  Dividers */
+  --divider-blue: hsl(240, 5%, 91%);
+
+  /* Font-family */
+  --primary-font-family: "Kumbh Sans", sans-serif;
+}
+
+/* MAIN */
+
+main {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background: linear-gradient(var(--gradient-violet), var(--gradient-blue));
+}
+
+.component-ctn {
+  width: 280px;
+  margin: 100px 0 20px;
+  background-color: white;
+  border-radius: 20px;
+}
+.component-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 105px 20px 20px;
+  position: relative;
+}
+
+.component-info img {
+  width: 220px;
+  position: absolute;
+  top: -90px;
+  left: calc(50% - 125px);
+}
+
+h1 {
+  padding-bottom: 30px;
+  align-self: center;
+}
+
+.articles-ctn {
+  width: 100%;
+  position: relative;
+}
+
+.articles-ctn article {
+  margin-bottom: 20px;
+  position: relative;
+
+  padding-bottom: 15px;
+  border-bottom: 0.5px solid var(--divider-blue);
+}
+article:hover {
+  cursor: pointer;
+}
+
+/* Arrow */
+.arrow {
+  content: url("../images/icon-arrow-down.svg");
+
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* Typography, color and divider*/
+h1 {
+  font-size: 2.6rem;
+  color: var(--blue-100);
+}
+p {
+  font-size: 1.2rem;
+  color: var(--blue-200);
+}
+
+/* Author */
+.author {
+  text-align: center;
+  color: white;
+}
+a {
+  color: var(--blue-100);
+}
+a:hover {
+  border: 1px solid var(--blue-100);
+}
