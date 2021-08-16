@@ -94,6 +94,9 @@ h1 {
 article:hover {
   cursor: pointer;
 }
+.article__question:hover {
+  color: var(--red-arrow);
+}
 
 /* Arrow */
 .arrow {
