@@ -59,7 +59,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 105px 20px 20px;
+  padding: 105px 20px 17px;
   position: relative;
 }
 
@@ -94,28 +94,32 @@ article:hover {
 /* Arrow */
 .arrow {
   content: url("../images/icon-arrow-down.svg");
-
   position: absolute;
   right: 0;
   top: 0;
 }
 
-/* Hidden question response */
+/* article response style*/
 .article__response {
-  display: none;
+  margin-top: 12px;
+
+  color: var(--blue-300);
+  font-size: 1.1rem;
+  line-height: 1.65rem;
 }
 
-/* Typography, color and divider*/
+/* Typography and color*/
 h1 {
   font-size: 2.6rem;
   color: var(--blue-100);
 }
+
 p {
   font-size: 1.2rem;
   color: var(--blue-200);
 }
 
-/* Author */
+/* AUTHOR */
 .author {
   text-align: center;
   color: white;
@@ -125,4 +129,22 @@ a {
 }
 a:hover {
   border: 1px solid var(--blue-100);
+}
+
+/* JS MANIPULATE STYLES */
+
+/* Arrow-reverse style */
+.arrow-reverse {
+  transform: rotate(180deg);
+}
+
+/* Hidden question response */
+.response-hidden {
+  display: none;
+}
+
+/* Bold question style */
+.bold-question {
+  font-weight: 700;
+  color: var(--blue-100);
 }
