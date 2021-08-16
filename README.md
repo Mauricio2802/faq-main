@@ -42,22 +42,12 @@ Desktop:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
 
 ### What I learned
 
-...
+I learn a lot of things about manipulate the DOM with Javascript. Check my unique script file to check the JS code.
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
 
 ### Continued development
 
@@ -66,7 +56,9 @@ Desktop:
 ### Useful resources
 
 - [hidden vs visibility](https://cybmeta.com/display-none-vs-visibility-hidden-y-tu-como-escondes-las-cosas) - This article was helpful to have a better idea on how to disappear an element in HTML.
-
+- [Select DOM elements with JS](https://lenguajejs.com/javascript/dom/seleccionar-elementos-dom/) - This article was helpful to have a better idea on how to manipulate the DOM.
+- [MDN](https://developer.mozilla.org/) - This incredible website helped me a lot with the properties of CSS and JS.
+- [W3C Schools] - This was helpful too.
 ## Author
 
 - Website - I don't have a website yet
