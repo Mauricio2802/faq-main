@@ -65,7 +65,7 @@ Desktop:
 
 ### Useful resources
 
-- [Example resource 1]() - ...
+- [hidden vs visibility](https://cybmeta.com/display-none-vs-visibility-hidden-y-tu-como-escondes-las-cosas) - This article was helpful to have a better idea on how to disappear an element in HTML.
 
 ## Author
 
