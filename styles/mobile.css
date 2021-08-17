@@ -133,16 +133,20 @@ article:hover {
   position: static;
 }
 
-/* Typography and color*/
+/* TYPOGRAPHY AND COLOR*/
+
 h1 {
   color: var(--blue-100);
   font-size: 2.6rem;
 }
 
-p {
+/* Question */
+h2 {
   color: var(--blue-200);
   font-size: 1.2rem;
+  font-weight: 400;
 }
+
 .article__response {
   color: var(--blue-300);
   font-size: 1.1rem;
