@@ -62,6 +62,7 @@ I learn a lot of things about manipulate the DOM with Javascript. Check my uniqu
 - [MDN](https://developer.mozilla.org/) - This incredible website helped me a lot with the properties of CSS and JS.
 - [W3C Schools](https://www.w3schools.com/) - This was helpful too.
 - [Response aobut shadow svg](https://es.stackoverflow.com/questions/287386/aplicar-sombra-a-contorno-de-objetos-svg-con-css)
+- [Article about transition property CSS](https://cybmeta.com/animaciones-basicas-con-css-transition)
 
 ## Author
 
