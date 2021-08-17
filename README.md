@@ -33,6 +33,9 @@ Mobile:
 
 Desktop:
 
+![desktop](https://user-images.githubusercontent.com/70554280/129666819-3b549985-0eb1-42fe-9bbe-0000ea3ced06.png)
+
+
 ### Links
 
 - Solution URL: [Github repository](https://github.com/Mauricio2802/faq-main)
@@ -45,6 +48,7 @@ Desktop:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
+- CCS Grid
 - Mobile-first workflow
 
 ### What I learned
@@ -78,7 +82,7 @@ I put the transition in margin because I think is a easy way to do that.
 
 ### Continued development
 
-...
+I finished this project, and I learned a lot of things. The project finished here, but I'll go ahead with more projects :D
 
 ### Useful resources
 
@@ -86,8 +90,11 @@ I put the transition in margin because I think is a easy way to do that.
 - [Select DOM elements with JS](https://lenguajejs.com/javascript/dom/seleccionar-elementos-dom/) - This article was helpful to have a better idea on how to manipulate the DOM.
 - [MDN](https://developer.mozilla.org/) - This incredible website helped me a lot with the properties of CSS and JS.
 - [W3C Schools](https://www.w3schools.com/) - This was helpful too.
-- [Response aobut shadow svg](https://es.stackoverflow.com/questions/287386/aplicar-sombra-a-contorno-de-objetos-svg-con-css)
+- [Response about shadow svg](https://es.stackoverflow.com/questions/287386/aplicar-sombra-a-contorno-de-objetos-svg-con-css)
 - [Article about transition property CSS](https://cybmeta.com/animaciones-basicas-con-css-transition)
+- [How to overlap images](https://es.stackoverflow.com/questions/174400/c%C3%B3mo-superponer-dos-im%C3%A1genes)
+- [CCS Grid](https://lenguajecss.com/css/maquetacion-y-colocacion/grid-css/) - This resource helped me to remmember basic CSS Grid.
+- [How works the property background](https://css-tricks.com/almanac/properties/b/background/) - This was helpful to deepen the property background.
 
 ## Author
 
