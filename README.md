@@ -51,6 +51,31 @@ Desktop:
 
 I learn a lot of things about manipulate the DOM with Javascript. Check my unique script file to check the JS code.
 
+I implement a transition in the answer appearing with CSS:
+
+I put the transition in margin because I think is a easy way to do that.
+```css
+/* article response style*/
+.article__response {
+  margin-top: 0px;
+
+  visibility: hidden;
+  position: absolute;
+}
+
+/* Response transition */
+.article__response {
+  transition: margin 0.5s ease;
+}
+
+.response-appear {
+  margin-top: 12px;
+
+  visibility: visible;
+  position: static;
+}
+```
+
 ### Continued development
 
 ...
