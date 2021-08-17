@@ -1,0 +1,64 @@
+html {
+  font-size: 62.5%;
+}
+
+.component-ctn {
+  width: 750px;
+  min-height: 410px;
+
+  margin: 40px 0 30px;
+}
+.component-info {
+  width: inherit;
+  min-height: inherit;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.img-ctn {
+  height: inherit;
+
+  display: flex;
+  align-items: center;
+
+  background: url("../images/bg-pattern-desktop.svg") no-repeat;
+  background-size: 700px 790px;
+  background-position: -375px -250px;
+}
+
+.img {
+  content: url("../images/illustration-woman-online-desktop.svg");
+
+  display: block;
+  position: static;
+  width: 370px;
+  margin-left: -50px;
+
+  filter: none;
+  overflow: hidden;
+}
+.img-cube {
+  content: url("../images/illustration-box-desktop.svg");
+
+  display: block;
+  width: 160px;
+
+  position: absolute;
+  top: 155px;
+  left: -76px;
+}
+
+.text-info-ctn {
+  align-items: flex-start;
+  padding: 55px 85px 5px 25px;
+}
+h1 {
+  align-self: flex-start;
+}
+.article__response {
+  font-size: 1rem;
+}
+.response-appear {
+  margin-top: 9px;
+}
