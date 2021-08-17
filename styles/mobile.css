@@ -81,7 +81,6 @@ h1 {
 
 .articles-ctn {
   width: 100%;
-  position: relative;
 }
 
 .articles-ctn article {
@@ -108,22 +107,37 @@ article:hover {
 
 /* article response style*/
 .article__response {
+  margin-top: 0px;
+
+  visibility: hidden;
+  position: absolute;
+}
+
+.article__response {
+  transition: margin 0.5s ease;
+}
+
+.response-appear {
   margin-top: 12px;
 
-  color: var(--blue-300);
-  font-size: 1.1rem;
-  line-height: 1.65rem;
+  visibility: visible;
+  position: static;
 }
 
 /* Typography and color*/
 h1 {
-  font-size: 2.6rem;
   color: var(--blue-100);
+  font-size: 2.6rem;
 }
 
 p {
-  font-size: 1.2rem;
   color: var(--blue-200);
+  font-size: 1.2rem;
+}
+.article__response {
+  color: var(--blue-300);
+  font-size: 1.1rem;
+  line-height: 1.65rem;
 }
 
 /* AUTHOR */
@@ -136,7 +150,7 @@ a {
   color: var(--blue-100);
 }
 a:hover {
-  border: 1px solid var(--blue-100);
+  text-decoration: none;
 }
 
 /* JS MANIPULATE STYLES */
@@ -147,12 +161,9 @@ a:hover {
 }
 
 /* Hidden question response */
-.response-hidden {
-  display: none;
-}
 
 /* Bold question style */
 .bold-question {
-  font-weight: 700;
   color: var(--blue-100);
+  font-weight: 700;
 }

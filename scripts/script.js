@@ -1,19 +1,21 @@
 function addAndDeleteAnswer1() {
   let articleChildArray = question1.childNodes;
   let answer = articleChildArray[3];
-  let arrayClass = answer.classList;
-  // the response-hidden class
-  let hiddenClass = arrayClass[1];
+  // the response array classes css
+  let answerClass = answer.classList;
   let question = articleChildArray[1];
   let questionChilds = question.childNodes;
   let span = questionChilds[1];
 
-  if (hiddenClass) {
-    answer.classList.remove("response-hidden");
+  console.log(answer);
+  console.log(answerClass);
+
+  if (answerClass.length === 1) {
+    answer.classList.add("response-appear");
     span.classList.add("arrow-reverse");
     question.classList.add("bold-question");
   } else {
-    answer.classList.add("response-hidden");
+    answer.classList.remove("response-appear");
     span.classList.remove("arrow-reverse");
     question.classList.remove("bold-question");
   }
@@ -21,19 +23,21 @@ function addAndDeleteAnswer1() {
 function addAndDeleteAnswer2() {
   let articleChildArray = question2.childNodes;
   let answer = articleChildArray[3];
-  let arrayClass = answer.classList;
-  // the response-hidden class
-  let hiddenClass = arrayClass[1];
+  // the response array classes css
+  let answerClass = answer.classList;
   let question = articleChildArray[1];
   let questionChilds = question.childNodes;
   let span = questionChilds[1];
 
-  if (hiddenClass) {
-    answer.classList.remove("response-hidden");
+  console.log(answer);
+  console.log(answerClass);
+
+  if (answerClass.length === 1) {
+    answer.classList.add("response-appear");
     span.classList.add("arrow-reverse");
     question.classList.add("bold-question");
   } else {
-    answer.classList.add("response-hidden");
+    answer.classList.remove("response-appear");
     span.classList.remove("arrow-reverse");
     question.classList.remove("bold-question");
   }
@@ -41,19 +45,21 @@ function addAndDeleteAnswer2() {
 function addAndDeleteAnswer3() {
   let articleChildArray = question3.childNodes;
   let answer = articleChildArray[3];
-  let arrayClass = answer.classList;
-  // the response-hidden class
-  let hiddenClass = arrayClass[1];
+  // the response array classes css
+  let answerClass = answer.classList;
   let question = articleChildArray[1];
   let questionChilds = question.childNodes;
   let span = questionChilds[1];
 
-  if (hiddenClass) {
-    answer.classList.remove("response-hidden");
+  console.log(answer);
+  console.log(answerClass);
+
+  if (answerClass.length === 1) {
+    answer.classList.add("response-appear");
     span.classList.add("arrow-reverse");
     question.classList.add("bold-question");
   } else {
-    answer.classList.add("response-hidden");
+    answer.classList.remove("response-appear");
     span.classList.remove("arrow-reverse");
     question.classList.remove("bold-question");
   }
@@ -61,19 +67,21 @@ function addAndDeleteAnswer3() {
 function addAndDeleteAnswer4() {
   let articleChildArray = question4.childNodes;
   let answer = articleChildArray[3];
-  let arrayClass = answer.classList;
-  // the response-hidden class
-  let hiddenClass = arrayClass[1];
+  // the response array classes css
+  let answerClass = answer.classList;
   let question = articleChildArray[1];
   let questionChilds = question.childNodes;
   let span = questionChilds[1];
 
-  if (hiddenClass) {
-    answer.classList.remove("response-hidden");
+  console.log(answer);
+  console.log(answerClass);
+
+  if (answerClass.length === 1) {
+    answer.classList.add("response-appear");
     span.classList.add("arrow-reverse");
     question.classList.add("bold-question");
   } else {
-    answer.classList.add("response-hidden");
+    answer.classList.remove("response-appear");
     span.classList.remove("arrow-reverse");
     question.classList.remove("bold-question");
   }
@@ -81,19 +89,21 @@ function addAndDeleteAnswer4() {
 function addAndDeleteAnswer5() {
   let articleChildArray = question5.childNodes;
   let answer = articleChildArray[3];
-  let arrayClass = answer.classList;
-  // the response-hidden class
-  let hiddenClass = arrayClass[1];
+  // the response array classes css
+  let answerClass = answer.classList;
   let question = articleChildArray[1];
   let questionChilds = question.childNodes;
   let span = questionChilds[1];
 
-  if (hiddenClass) {
-    answer.classList.remove("response-hidden");
+  console.log(answer);
+  console.log(answerClass);
+
+  if (answerClass.length === 1) {
+    answer.classList.add("response-appear");
     span.classList.add("arrow-reverse");
     question.classList.add("bold-question");
   } else {
-    answer.classList.add("response-hidden");
+    answer.classList.remove("response-appear");
     span.classList.remove("arrow-reverse");
     question.classList.remove("bold-question");
   }
