@@ -26,6 +26,10 @@ html {
   background-size: 700px 790px;
   background-position: -375px -250px;
 }
+.img-ctn-principal {
+  height: inherit;
+  overflow: hidden;
+}
 
 .img {
   content: url("../images/illustration-woman-online-desktop.svg");
@@ -36,7 +40,6 @@ html {
   margin-left: -50px;
 
   filter: none;
-  overflow: hidden;
 }
 .img-cube {
   content: url("../images/illustration-box-desktop.svg");
